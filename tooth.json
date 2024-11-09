@@ -1,26 +1,26 @@
 {
     "format_version": 2,
-    "tooth": "my-mod",
-    "version": "0.0.0",
+    "tooth": "github.com/pingguo114514/DisconnectScreen",
+    "version": "1.0.0",
     "info": {
-        "name": "My Mod Name",
-        "description": "My Mod Description",
-        "author": "My Name",
+        "name": "DisconnectScreen",
+        "description": "DisconnectScreen's LeviLamina ported version",
+        "author": "pingguo114514",
         "tags": [
             "levilamina",
             "mod"
         ]
     },
-    "asset_url": "My Asset Url",
-    "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "My LeviLamina Dependency Version"
-    },
+    "asset_url": "https://github.com/pingguo114514/DisconnectScreen/releases/download/v1.0.0/DisconnectScreen-windows-x64.zip",
     "files": {
         "place": [
             {
-                "src": "my-mod/*",
-                "dest": "plugins/my-mod/"
+                "src": "DisconnectScreen/*",
+                "dest": "plugins/DisconnectScreen/"
             }
+        ],
+        "preserve": [
+            "Language.json"
         ]
     }
 }
